@@ -27,7 +27,7 @@
      <string>Расчёт</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_Resistance">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -40,7 +40,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Шунтирующее сопротивление (Ом)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="label_MinimumCurrent">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -53,7 +53,7 @@
      <string>Минимальный ток датчика (мА)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_MaximumCurrent">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -66,7 +66,7 @@
      <string>Максимальный ток датчика (мА)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="label_MinimumSensorValue">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -79,7 +79,7 @@
      <string>Минимальное показание датчика (бар)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="label_MaximumSensorValue">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -92,7 +92,7 @@
      <string>Максимальное показание датчика (бар)</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="lineEdit_Resistance">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -102,7 +102,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="lineEdit_MinimumCurrent">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -112,7 +112,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="lineEdit_MaximumCurrent">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -122,7 +122,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="lineEdit_MinimumSensorValue">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -132,7 +132,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_5">
+   <widget class="QLineEdit" name="lineEdit_MaximumSensorValue">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -142,7 +142,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="plainTextEdit">
+   <widget class="QPlainTextEdit" name="plainTextEdit_Result">
     <property name="enabled">
      <bool>true</bool>
     </property>
