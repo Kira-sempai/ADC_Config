@@ -85,8 +85,8 @@ void MainWindow::on_pushButton_clicked()
     ui->plainTextEdit_Result->setPlainText("Тип: давление\n"
                                            "Тип датчика: 254\n"
                                            "X1: " + resultX1 + '\n' +
-                                           "Y1: " + resultX2 + '\n' +
-                                           "X2: " + resultY1 + '\n' +
+                                           "Y1: " + resultY1 + '\n' +
+                                           "X2: " + resultX2 + '\n' +
                                            "Y2: " + resultY2 + '\n'
                                            );
 }
